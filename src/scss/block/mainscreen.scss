@@ -1,0 +1,113 @@
+.mainscreen {
+    min-height: 100vh;
+    color: $text-basis_2;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.mainscreen__wrapper {
+    display: flex;
+    height: 100%;
+    flex: 1 1 auto;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    @media (max-width:992px){
+        flex-wrap: wrap-reverse;
+        border: none;
+    }
+}
+.preview {
+}
+.preview__photo {
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 50%;
+    display: flex;
+    min-height: 100%;
+    @media (max-width:992px){
+        flex: 1 1 100%;
+        min-height: 715px;
+    }
+    @media (max-width: 552px){
+        min-height: 415px;
+    }
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        object-fit: cover;
+    }
+}
+.preview__description {
+    flex: 1 1 50%;
+    display: flex;
+    padding-bottom: 70px;
+    flex-direction: column;
+    min-height: 100%;
+    @media (max-width:992px){
+        flex: 1 1 100%;
+    }
+}
+.carpentry {
+}
+.carpentry__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    padding: 20px 122px 20px 37px;
+    @media (max-width:992px){
+        padding: 20px 20px 20px 37px;  
+    }
+}
+.carpentry__text {
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 15px;
+    &:last-child{
+        margin-bottom: 70px;
+        @media (max-width: 768px){
+            margin-bottom: 20px;
+        }
+    }
+}
+.carpentry__text_accent {
+    margin: 0;
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: $text-title;
+    font-family: "TenorSans", sans-serif;
+    font-weight: 400;
+    @media (max-width: 552px){
+        font-size: 32px;
+    }
+}
+.carpentry__h1 {
+    margin-bottom: 15px;
+    @media (max-width: 768px){
+        margin-bottom: 76px;
+    }
+}
+.carpentry__btn {
+    margin-bottom: 10px;
+}
+.carpentry__list {
+    padding: 10px 140px 10px 10px;
+    display: flex;
+    margin-left: auto;
+    @media (max-width: 768px){
+        padding: 10px 10px 10px 10px;
+        align-self: start;
+        margin-left: 0;
+    }
+}
+.social-list__item {
+    padding: 0 20px;
+}
+.social-list__link {
+    padding: 10px;
+}

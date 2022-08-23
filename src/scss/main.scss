@@ -13,12 +13,14 @@ button {
     font-family: "Tenor Sans", sans-serif;
 }
 .title-h1{
-    font-size: 48px;
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
     margin: 0;
     text-transform: uppercase;
-    @media (max-width: 1024px){
-        font-size: 91px;
-    }
+    font-weight: inherit;
+    // @media (max-width: 1024px){
+    //     font-size: 16px;
+    // }
 }
 .title_h2{
     font-size: 52px;
@@ -36,6 +38,7 @@ button {
 @import "block/variables.scss";
 @import "block/settings.scss";
 @import "block/header.scss";
+@import "block/mainscreen.scss";
 @import "block/footer.scss";
 @import "block/fonts.scss";
 
@@ -48,7 +51,7 @@ body {
     background-color: #F3EFEA;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-    overflow-x: hidden;
+    height: 100%;
 }
 a {
    // color: #fff;
@@ -60,13 +63,14 @@ a {
 .btn {
     padding: 18px 56px;
     color: #fff;
-    background-color: #F6F6F6;
+    background-color: $btn-color;
     &:hover {
         background-color: $btn-hover;
         transition: background-color 0.4s;
     }
     &:active {
         background-color: $btn-hover;
+        color: rgba(255, 255, 255, 0.836);
         transition: background-color 0.1s;
     }
 }

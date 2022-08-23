@@ -21,7 +21,7 @@ const html = () => {
         }))
         .pipe(fileinclude())
         .pipe(webpHtml())
-        .pipe(htmlmin(app.htmlmin))
+        //.pipe(htmlmin(app.htmlmin))
         .pipe(dest(path.html.dest))
 }
 

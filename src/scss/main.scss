@@ -21,24 +21,23 @@ button {
   
 }
 .title-h2{
-    font-size: 52px;
-    text-align: center;
+    line-height: 54px;
+    font-size: 48px;
     @media (max-width: 768px){
         font-size: 32px;
     }
 }
-.title_h3 {
-    font-size: 18px;
-    color: #C0C0C0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.title-h3 {
+    font-size: 24px;
+    color: #000;
 }
 @import "block/variables.scss";
 @import "block/settings.scss";
 @import "block/header.scss";
 @import "block/mainscreen.scss";
 @import "block/specialization.scss";
-
+@import "block/family-workshop.scss";
+@import "block/workshop-video.scss";
 @import "block/footer.scss";
 @import "block/fonts.scss";
 
@@ -67,6 +66,7 @@ a {
 
 .btn {
     padding: 18px 56px;
+    display: inline-block;
     color: #fff;
     background-color: $btn-color;
     &:hover {

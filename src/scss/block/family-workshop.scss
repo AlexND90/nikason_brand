@@ -1,0 +1,78 @@
+.family-workshop {
+    padding: 80px 0;
+}
+.family-workshop__conteiner {
+}
+.family-workshop__title {
+    max-width: 1190px;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto 100px auto;
+}
+.family-workshop__wrapper {
+    
+}
+.famely {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EBEEEB;
+    @media (max-width: 992px) {
+        background-color: inherit; 
+    }
+}
+.famely__photo {
+    flex: 1 1 50%;
+    position: relative;
+    min-height: 475px;
+    overflow: hidden;
+    @media (max-width: 992px) {
+        flex: 1 1 100%;
+    }
+    @media (max-width: 992px) {
+        min-height: 375px;
+    }
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+.famely__description {
+    flex: 1 1 50%;
+    padding: 68px 40px 48px 40px;
+    @media (max-width: 992px) {
+        flex: 1 1 100%;
+        padding: 60px 40px 0px 40px;
+    }
+}
+.famely__title {
+    margin: 0;
+    margin-bottom: 40px;
+    @media (max-width: 768px) {
+    margin-bottom: 15px;
+    }
+}
+.famely__text {
+    max-width: 520px;
+    width: 100%;
+    @media (max-width: 992px) {
+        max-width: 100%;
+        width: 100%;
+    }
+    p{
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    p:last-child{
+        margin-bottom: 5px;
+    }
+    margin-bottom: 52px;
+    @media (max-width: 768px) {
+        margin-bottom: 30px;
+    }
+}
+.btn {
+}

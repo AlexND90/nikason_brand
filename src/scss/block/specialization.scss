@@ -1,13 +1,18 @@
 .specialization {
+    padding: 80px 0;
+    color: $text-basis_2;
+    @media (max-width: 552px) {
+        padding: 20px 0;
+    }
 }
 .conteiner {
 }
 .specialization-description {
-    padding: 150px 0;
+    padding: 80px 0 150px 0;
     display: flex;
     flex-direction: column;
     @media (max-width: 552px) {
-        padding: 90px 0;
+        padding: 70px 0;
     }
 }
 .specialization-description__h2 {
@@ -56,5 +61,45 @@
     }
     @media (max-width: 552px) {
         flex: 1 1 100%;
+    }
+}
+//=======================================================================
+.manufacture__title {
+    margin: 0;
+    margin-bottom: 100px;
+    @media (max-width: 768px) {
+        margin-bottom: 60px;
+        padding: 0 22px;
+    }
+}
+.manufacture__list {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    @media (max-width: 768px){
+        margin: 0 22px;
+    }
+}
+.manufacture__item {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 20px 65px 20px;
+    p{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    @media (max-width: 992px) {
+        flex: 1 1 33.333%;
+    }
+    @media (max-width: 768px) {
+        flex: 1 1 50%;
+        padding: 17px 7px 20px 7px;
     }
 }

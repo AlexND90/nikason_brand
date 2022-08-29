@@ -1,13 +1,19 @@
 .family-workshop {
     padding: 80px 0;
+    @media (max-width: 768px) {
+        padding: 45px 0;
+    }
 }
-.family-workshop__conteiner {
+.family-workshop__conteiner {  
 }
 .family-workshop__title {
     max-width: 1190px;
-    padding: 15px;
+    padding: 0 38px;
     width: 100%;
     margin: 0 auto 100px auto;
+    @media (max-width: 768px) {
+        margin-bottom: 60px;
+    }
 }
 .family-workshop__wrapper {
     
@@ -58,9 +64,13 @@
 .famely__text {
     max-width: 520px;
     width: 100%;
+    line-height: 1.5;
     @media (max-width: 992px) {
         max-width: 100%;
         width: 100%;
+        p{
+            margin-bottom: 15px;
+        }
     }
     p{
         margin: 0;

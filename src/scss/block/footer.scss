@@ -1,3 +1,16 @@
 .footer {
     background-color: $bg-color_footer;
 }
+.footer__wrapper {
+    display: flex;
+}
+.footer__nav {
+    display: flex;
+}
+.footer__social {
+    svg {
+        circle{
+            stroke: #fff;
+        }     
+    }
+}

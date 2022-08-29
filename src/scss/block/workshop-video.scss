@@ -1,7 +1,18 @@
 .workshop-video {
+    padding: 80px 0;
+    @media (max-width: 768px) {
+        padding: 45px 0;
+    }
+}
+.workshop-video__conteiner {
+    @media (max-width: 768px) {
+        padding: 0;
+    }
 }
 .workshop-video__title {
+    margin: 0;
     margin-bottom: 100px;
+    padding: 0 38px;
 }
 .workshop-video__box {
     position: relative;
@@ -9,15 +20,25 @@
     width: 100%;
     max-height: 700px;
     height: 100%;
-    background-color: bisque;
+    background-color: #C4C4C4;
 }
 .video {
     width: 100%;
     height: 100%;
+    vertical-align: middle;
 }
 .btn-video {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(50%), translateY(50%);
+    transform: translateY(-50%) translateX(-50%);  
+}
+.play-btn {
+    fill: #000;
+    &:hover{
+        fill: rgba(0, 0, 0, 0.877);
+    }  
+    &:active{
+        fill: rgba(0, 0, 0, 0.774);
+    }  
 }

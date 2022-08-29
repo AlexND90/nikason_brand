@@ -1,0 +1,80 @@
+.our-services {
+    padding: 120px 0 100px 0;
+    @media (max-width: 768px) {
+        padding: 110px 0 45px 0;
+    }
+}
+.our-services__title {
+    max-width: 1190px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    @media (max-width: 768px) {
+        padding: 0 38px;
+    }
+}
+.our-services__service {
+}
+.service-item {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 536px;
+    height: 100%;
+    margin-bottom: -1px;
+}
+.custom-furniture {
+    background-color: #E3DACE;
+}
+.tutorial-item {
+    background-color: #D4CDC3;
+}
+.service-item__photo {
+    flex: 1 1 50%;
+    position: relative;
+    @media (max-width: 992px) {
+        flex: 1 1 100%;
+        min-height: 500px;
+    }
+    @media (max-width: 568px) {
+        min-height: 375px;
+    }
+    img {
+       position: absolute;
+       top: 0;
+       left: 0;
+       object-fit: cover;
+       min-width: 100%;
+       width: 100%;
+       min-height: 100%;
+       height: 100%; 
+    }
+}
+.service-item__description {
+    flex: 1 1 50%;
+    padding: 110px 10px 100px 40px;  
+    @media (max-width: 992px) {
+        flex: 1 1 100%;
+    }
+    @media (max-width: 768px) {
+        padding: 110px 38px 64px 38px;
+    }
+}
+.service-item__content {
+    max-width: 540px;
+    width: 100%;
+    @media (max-width: 992px) {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+.service-item__title {
+    margin: 0;
+    margin-bottom: 40px;
+}
+.service-item__text-conteiner {
+    overflow: hidden;
+    margin-bottom: 55px;
+    line-height: 1.5;
+}
+

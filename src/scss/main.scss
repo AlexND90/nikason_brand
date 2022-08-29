@@ -21,6 +21,7 @@ button {
   
 }
 .title-h2{
+    margin: 0;
     line-height: 54px;
     font-size: 48px;
     @media (max-width: 768px){
@@ -38,6 +39,9 @@ button {
 @import "block/specialization.scss";
 @import "block/family-workshop.scss";
 @import "block/workshop-video.scss";
+@import "block/our-services.scss";
+@import "block/warranty.scss";
+
 @import "block/footer.scss";
 @import "block/fonts.scss";
 
@@ -48,7 +52,7 @@ body {
     color: $text-basis_1;
     font-size: 18px;
     background-color: #F3EFEA;
-    font-family: "Open Sans", sans-serif;
+    font-family: "OpenSans", sans-serif;
     font-weight: 300;
     height: 100%;
     //display: flex;
@@ -56,9 +60,6 @@ body {
 }
 .main {
     flex: 1 1 auto;
-}
-a {
-   // color: #fff;
 }
 //title==========================================================================
 

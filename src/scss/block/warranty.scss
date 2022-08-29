@@ -1,0 +1,35 @@
+.warranty {
+    padding: 100px 0 210px 0;
+    @media (max-width: 768px) {
+        padding: 45px 0 150px 0;
+    }
+}
+.warranty__border{
+    border: 7px solid #A1B29F;
+}
+.warranty__wrapper {
+    border: 1px solid #715B4B;
+    margin: 13px;
+    padding: 90px 95px 38px 95px;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 768px) {
+        padding: 60px 15px 38px 15px;
+    }
+}
+.warranty__title {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.warranty__text {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.warranty__photo {
+    width: 150px;
+    display: block;
+    position: relative;
+    top: -10px;
+    margin-left: auto;
+}

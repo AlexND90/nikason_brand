@@ -1,8 +1,14 @@
+
+@import "block/variables.scss";
+@import "block/settings.scss";
 .conteiner {
     max-width: 1190px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+    @media (max-width: 992px) {
+        padding: 0 38px;
+    }
 }
 button {
     border: none;
@@ -32,37 +38,6 @@ button {
     font-size: 24px;
     color: #000;
 }
-@import "block/variables.scss";
-@import "block/settings.scss";
-@import "block/header.scss";
-@import "block/mainscreen.scss";
-@import "block/specialization.scss";
-@import "block/family-workshop.scss";
-@import "block/workshop-video.scss";
-@import "block/our-services.scss";
-@import "block/warranty.scss";
-
-@import "block/footer.scss";
-@import "block/fonts.scss";
-
-img {
-vertical-align: top;
-}
-body {
-    color: $text-basis_1;
-    font-size: 18px;
-    background-color: #F3EFEA;
-    font-family: "OpenSans", sans-serif;
-    font-weight: 300;
-    height: 100%;
-    //display: flex;
-    //flex-direction: column;
-}
-.main {
-    flex: 1 1 auto;
-}
-//title==========================================================================
-
 //button======================================================================
 
 .btn {
@@ -80,5 +55,45 @@ body {
         transition: background-color 0.1s;
     }
 }
+.btn_pages{
+    padding: 18px 60px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
 //============================================================================
+
+@import "block/header.scss";
+@import "block/mainscreen.scss";
+@import "block/specialization.scss";
+@import "block/family-workshop.scss";
+@import "block/workshop-video.scss";
+@import "block/our-services.scss";
+@import "block/warranty.scss";
+@import "block/tutorial__mainscreen.scss";
+@import "block/footer.scss";
+@import "block/fonts.scss";
+
+img {
+vertical-align: top;
+}
+body {
+    color: $text-basis_1;
+    font-size: 18px;
+    background-color: #F3EFEA;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 300;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1 1 auto;
+}
+.header {
+
+}
+//title==========================================================================
+
+
 

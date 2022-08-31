@@ -7,12 +7,9 @@
 .our-services__title {
     max-width: 1190px;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 38px;
     margin: 0 auto;
     margin-bottom: 100px;
-    @media (max-width: 768px) {
-        padding: 0 38px;
-    }
 }
 .our-services__service {
 }
@@ -55,6 +52,7 @@
     padding: 110px 10px 100px 40px;  
     @media (max-width: 992px) {
         flex: 1 1 100%;
+        padding: 110px 38px 64px 38px;
     }
     @media (max-width: 768px) {
         padding: 110px 38px 64px 38px;

@@ -5,14 +5,16 @@
     }
 }
 .workshop-video__conteiner {
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
         padding: 0;
     }
 }
 .workshop-video__title {
     margin: 0;
     margin-bottom: 100px;
-    padding: 0 38px;
+    @media (max-width: 992px) {
+        padding: 0 38px;
+    }
 }
 .workshop-video__box {
     position: relative;

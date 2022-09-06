@@ -1,6 +1,9 @@
 
 @import "block/variables.scss";
 @import "block/settings.scss";
+@import "block/fonts.scss";
+
+
 .conteiner {
     max-width: 1190px;
     width: 100%;
@@ -62,17 +65,22 @@ button {
 }
 
 //============================================================================
-
+//header
 @import "block/header.scss";
+//main
 @import "block/mainscreen.scss";
 @import "block/specialization.scss";
 @import "block/family-workshop.scss";
 @import "block/workshop-video.scss";
 @import "block/our-services.scss";
 @import "block/warranty.scss";
+//tutorial
 @import "block/tutorial__mainscreen.scss";
+@import "block/tutorial__examples-works.scss";
+@import "block/tutorial__tech.scss";
+//footer
 @import "block/footer.scss";
-@import "block/fonts.scss";
+
 
 img {
 vertical-align: top;

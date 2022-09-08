@@ -50,6 +50,7 @@
 nav.nav-open {
     transition: transform 0.6s;
     transform: translateY(0%);
+    z-index: 4;
 }
 .nav {
 }
@@ -116,6 +117,7 @@ nav.nav-open {
     }
 }
 .burger {
+    z-index: 4;
     width: 68px;
     height: 14px;
     display: flex;
@@ -145,4 +147,20 @@ nav.nav-open {
     height: 2px;
     width: 68px;
     background-color: $text-title;
+}
+.burger_active{
+    &::after {
+        top: 0;
+        right: -1px;
+        width: 15px;
+        transform: rotate(45deg);
+        transition: transform 0.3s;
+    }
+    &::before {
+        right: -1px;
+        bottom: 0;
+        width: 15px;
+        transform: rotate(-45deg);
+        transition: transform 0.3s;
+    }
 }

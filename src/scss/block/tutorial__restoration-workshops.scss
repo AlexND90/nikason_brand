@@ -1,0 +1,74 @@
+.restoration-workshops {
+    padding: 80px 0;
+}
+
+.restoration-workshops__title {
+    margin-bottom: 100px;
+}
+.restoration-workshops__list {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    justify-items: center;
+    row-gap: 30px;
+    @media (max-width: 1024px){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (max-width: 768px){
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+}
+.tutorial-restoration {
+}
+.restoration-workshops__items {
+}
+.tutorial-restoration__item {
+    padding: 20px;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 768px){
+        padding: 10px;
+    }
+}
+.tutorial-restoration__link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: inherit;
+    min-width: 100%;
+    min-height: 100%;
+    p{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+        @media (max-width: 768px){
+            margin-bottom: 10px;
+        }
+    }
+    &:hover{
+        img {
+            transform: scale(1.1);
+            transition: transform 0.5s;
+        }
+        color: rgba(0, 0, 0, 0.911);
+    }
+    &:active{
+        img {
+            transform: scale(0.95);
+            transition: transform 0.5s;
+        }
+        color: rgba(0, 0, 0, 0.911);
+    }
+}
+.tutorial-restoration__img-box {
+    flex: 1 1 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

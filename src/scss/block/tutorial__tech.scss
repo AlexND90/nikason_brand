@@ -35,10 +35,11 @@
         content: "";
         position: absolute;
         display: block;
+        z-index: 1;
         left: 30px;
         bottom: 0;
         width: 1px;
-        height: 65%;
+        height: 100%;
         background-color: $btn-color;
     }
 }
@@ -57,6 +58,8 @@
 }
 
 .tech__number {
+    position: relative;
+    z-index: 2;
     align-self: start;
     color: #F6F6F6;
     font-size: 24px;

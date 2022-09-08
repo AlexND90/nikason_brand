@@ -1,0 +1,15 @@
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 508px;
+    margin: 80px 0;
+    background-color: $bg-color_footer;
+    background: url(../img/tutorial/bg_slogan.jpg) center/cover no-repeat;
+}
+.slogan__title {
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}

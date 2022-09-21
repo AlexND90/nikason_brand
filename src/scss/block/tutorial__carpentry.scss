@@ -1,5 +1,8 @@
 .tutorial-carpentry {
     padding: 80px 0;
+    @media (max-width: 768px) {
+        padding: 40px 0;
+    }
 }
 .tutorial-carpentry__title {
     margin: 0;
